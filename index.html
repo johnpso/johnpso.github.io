@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>John Psofimis — Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+<header class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="#home" class="nav-logo">JP</a>
+    <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+    <nav class="nav-links" id="nav-links">
+      <a href="#home">Home</a>
+      <a href="#resume">Resume</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact" class="nav-cta">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<!-- HERO -->
+<section id="home" class="section hero">
+  <div>
+    <div class="hero-label">Cybersecurity / Technology</div>
+    <h1 class="hero-name">John Psofimis</h1>
+
+    <p class="hero-bio">
+      Computer Programming student specializing in cybersecurity and security operations. 
+      Experienced in network traffic analysis, log monitoring, and identifying potential threats 
+      using tools like Wireshark and SIEM platforms.
+    </p>
+
+    <p class="hero-objective">
+      <span class="label-text">Objective —</span>
+      Seeking an entry-level cybersecurity or SOC analyst role where I can apply my knowledge 
+      of network security, threat detection, and system monitoring while continuing to develop 
+      hands-on experience.
+    </p>
+
+    <div class="hero-actions">
+      <a href="#resume" class="btn btn-primary">View Resume</a>
+      <a href="#projects" class="btn btn-secondary">Projects</a>
+    </div>
+  </div>
+
+  <div class="hero-visual">
+    <div class="avatar-ring">
+      <div class="avatar-placeholder"></div>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><span class="stat-num">2</span><span class="stat-label">Projects</span></div>
+      <div class="stat"><span class="stat-num">4+</span><span class="stat-label">Skills</span></div>
+      <div class="stat"><span class="stat-num">2026</span><span class="stat-label">Grad</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- RESUME -->
+<section id="resume" class="section resume-section">
+  <div class="section-header">
+    <span class="section-number">02</span>
+    <h2>Résumé</h2>
+  </div>
+
+  <div class="resume-grid">
+
+    <div>
+      <h3 class="resume-block-title">Experience</h3>
+
+      <div class="resume-entry">
+        <div class="resume-entry-header">
+          <div>
+            <div class="entry-role">Security Monitoring & Log Analysis Lab</div>
+            <div class="entry-org">Academic Project</div>
+          </div>
+        </div>
+        <ul class="entry-bullets">
+          <li>Monitored system and network logs using a SIEM tool</li>
+          <li>Identified suspicious activity and performed incident analysis</li>
+          <li>Documented findings and recommended mitigation strategies</li>
+        </ul>
+      </div>
+
+      <div class="resume-entry">
+        <div class="resume-entry-header">
+          <div>
+            <div class="entry-role">Port Scanning & Vulnerability Identification</div>
+            <div class="entry-org">George Brown Polytechnic</div>
+          </div>
+        </div>
+        <ul class="entry-bullets">
+          <li>Conducted port scanning to identify vulnerabilities</li>
+          <li>Analyzed exposure risks and system weaknesses</li>
+          <li>Prepared structured reports on findings</li>
+        </ul>
+      </div>
+    </div>
+
+    <div>
+      <h3 class="resume-block-title">Technical Skills</h3>
+
+      <div class="skills-grid">
+        <div class="skill-group">
+          <div class="skill-category">Security Tools</div>
+          <div class="skill-tags">
+            <span class="skill-tag">Wireshark</span>
+            <span class="skill-tag">SIEM</span>
+            <span class="skill-tag">Port Scanners</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <div class="skill-category">Programming</div>
+          <div class="skill-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">PowerShell</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <div class="skill-category">Networking</div>
+          <div class="skill-tags">
+            <span class="skill-tag">TCP/IP</span>
+            <span class="skill-tag">Traffic Analysis</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <div class="skill-category">Systems</div>
+          <div class="skill-tags">
+            <span class="skill-tag">Windows</span>
+            <span class="skill-tag">Linux</span>
+            <span class="skill-tag">MacOS</span>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="resume-block-title">Core Competencies</h3>
+      <div class="competencies-list">
+        <span class="competency">Problem Solving</span>
+        <span class="competency">Log Analysis</span>
+        <span class="competency">Troubleshooting</span>
+        <span class="competency">Communication</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section projects-section">
+  <div class="section-header">
+    <span class="section-number">03</span>
+    <h2>Projects</h2>
+  </div>
+
+  <div class="projects-grid">
+
+    <div class="project-card featured">
+      <h3 class="project-title">Security Monitoring & Log Analysis</h3>
+      <p class="project-description">
+        Simulated a SOC environment by analyzing system and network logs using SIEM tools. 
+        Identified suspicious patterns and performed basic incident response tasks.
+      </p>
+      <div class="project-tech">
+        <span>SIEM</span><span>Log Analysis</span><span>Cybersecurity</span>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <h3 class="project-title">Port Scanning & Vulnerability Analysis</h3>
+      <p class="project-description">
+        Conducted port scanning to identify open ports and system vulnerabilities. 
+        Evaluated risks and documented findings in a structured report.
+      </p>
+      <div class="project-tech">
+        <span>Networking</span><span>Security</span><span>Analysis</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education" class="section education-section">
+  <div class="section-header">
+    <span class="section-number">04</span>
+    <h2>Education</h2>
+  </div>
+
+  <div class="edu-entry">
+    <div class="edu-icon">🎓</div>
+    <div>
+      <div class="entry-role">Computer Programming</div>
+      <div class="entry-org">George Brown Polytechnic</div>
+      <div class="entry-date">Expected Graduation: April 2026</div>
+      <p class="edu-note">
+        Relevant coursework: Operating Systems, Cybersecurity Fundamentals, Penetration Testing.
+      </p>
+    </div>
+  </div>
+
+  <div class="transcript-note">
+    <div>📄</div>
+    <div>Transcript available upon request</div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section contact-section">
+  <h2 class="contact-heading">Let's Connect</h2>
+  <p class="contact-sub">Open to cybersecurity opportunities and learning experiences.</p>
+
+  <div class="contact-links">
+    <a href="mailto:psofimisjohn@gmail.com" class="contact-pill">Email</a>
+    <a href="https://github.com/johnpso" target="_blank" class="contact-pill">GitHub</a>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <p>© 2026 John Psofimis · Built with HTML & CSS · GitHub Pages</p>
+</footer>
+
+<script>
+const navbar = document.getElementById('navbar');
+window.addEventListener('scroll', () => {
+  navbar.classList.toggle('scrolled', window.scrollY > 20);
+});
+</script>
+
+</body>
+</html>
